@@ -8,8 +8,9 @@
 ### trigger this job from terminal.
 ![q4_config](https://github.com/moe-Ali/ITI_CI-CD/blob/main/Day1-lab/Screenshots/q4_config.png)
 ![q4_terminal](https://github.com/moe-Ali/ITI_CI-CD/blob/main/Day1-lab/Screenshots/q4_terminal.png)
-1[q4_output](https://github.com/moe-Ali/ITI_CI-CD/blob/main/Day1-lab/Screenshots/q4_output.png)
+![q4_output](https://github.com/moe-Ali/ITI_CI-CD/blob/main/Day1-lab/Screenshots/q4_output.png)
 ### create a pipeline to execute any shell command (jenkinsfile). 
+### [jenkinsfile on my repo](https://github.com/moe-Ali/BakeHouse)
 ![q5_config](https://github.com/moe-Ali/ITI_CI-CD/blob/main/Day1-lab/Screenshots/q4_output.png)
 ![q5_output1](https://github.com/moe-Ali/ITI_CI-CD/blob/main/Day1-lab/Screenshots/q5_1.png)
 ![q5_output2](https://github.com/moe-Ali/ITI_CI-CD/blob/main/Day1-lab/Screenshots/q5_2.png)
