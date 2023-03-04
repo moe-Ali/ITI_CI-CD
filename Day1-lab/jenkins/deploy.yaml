@@ -16,6 +16,13 @@ spec:
       securityContext:
         fsGroup: 1000 
         runAsUser: 0
+      initContainers:
+      - name: docker
+        image: docker:stable
+        command: ['sh', '-c', 'echo The app is running!'] 
+      - name: kubectl
+        image: bitnami/kubectl
+        command: ['sh', '-c', 'echo The app is running!']
       containers:
       - name: jenkins
         image: jenkins/jenkins:lts-jdk11
