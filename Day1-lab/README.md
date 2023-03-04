@@ -3,6 +3,8 @@
 ### Write a deployment file to deploy Jenkins.
 ### [K8S files](https://github.com/moe-Ali/ITI_CI-CD/tree/main/Day1-lab/jenkins)
 ![q1](https://github.com/moe-Ali/ITI_CI-CD/blob/main/Day1-lab/Screenshots/q1_terminal.png)
+### install docker and kubectl inside Jenkins pod using init container(bounce).
+![q2](https://github.com/moe-Ali/ITI_CI-CD/blob/main/Day1-lab/Screenshots/q2.png)
 ### Create a freestyle to list current Dir.
 ![q3](https://github.com/moe-Ali/ITI_CI-CD/blob/main/Day1-lab/Screenshots/q3.png)
 ### trigger this job from terminal.
