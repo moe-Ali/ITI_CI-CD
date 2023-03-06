@@ -9,7 +9,7 @@
 ![pushing_slave_image](https://github.com/moe-Ali/ITI_CI-CD/blob/main/Day2-lb/Screenshots/pushing_slave_image.png)
 
 ### Create Multi branch pipeline to build and push if branch = release, and deploy if branch= dev|test|prod.
-#### [the used repo URL which contains the 4 branches]()
+#### [the used repo URL which contains the 4 branches](https://github.com/moe-Ali/BakeHouse)
 
 ![q2_jenkins](https://github.com/moe-Ali/ITI_CI-CD/blob/main/Day2-lb/Screenshots/q2_jenkins.png)
 ![q2_terminal](https://github.com/moe-Ali/ITI_CI-CD/blob/main/Day2-lb/Screenshots/q2_terminal.png)
