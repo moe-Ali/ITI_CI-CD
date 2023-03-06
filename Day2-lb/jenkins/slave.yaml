@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jenkins-slave
+  namespace: jenkins
+  labels:
+    app: jenkins-slave
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: jenkins-slave
+  template:
+    metadata:
+      labels:
+        app: jenkins-slave
+    spec:
+      securityContext:
+            fsGroup: 0 
+            runAsUser: 0
+      containers:
+      - name: jenkins-slave
+        image: mohamd556/jenkins_slave
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 22
+        resources: {}
+        volumeMounts:
+        - mountPath: /var/run/docker.sock
+          name: docker-sock
+      volumes:
+      - name: docker-sock
+        hostPath:
+          path: /var/run/docker.sock
+--- 
+kind: Service
+apiVersion: v1
+metadata:
+  name: jenkins-slave-svc
+  namespace: jenkins
+spec:
+  selector:
+    app: jenkins-slave
+  ports:
+  - port: 22
+    targetPort: 22
