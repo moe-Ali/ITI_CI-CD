@@ -4,7 +4,7 @@
 ![q1_jenkins1](https://github.com/moe-Ali/ITI_CI-CD/blob/main/Day2-lb/Screenshots/q1_jenkins1.png)
 ![q1_jenkins2](https://github.com/moe-Ali/ITI_CI-CD/blob/main/Day2-lb/Screenshots/q1_jenkins2.png)
 
-makeing image from running container and pushing it to be used in making slave pods
+### makeing image from running container and pushing it to be used in making slave pods.
 ![create_image_contianer](https://github.com/moe-Ali/ITI_CI-CD/blob/main/Day2-lb/Screenshots/create_image_contianer.png)
 ![pushing_slave_image](https://github.com/moe-Ali/ITI_CI-CD/blob/main/Day2-lb/Screenshots/pushing_slave_image.png)
 
