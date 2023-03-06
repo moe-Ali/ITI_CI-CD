@@ -1,5 +1,9 @@
 # CI/CD Jenkins Day2 Lab
 ## Lab:
+- Configure Jenkins slave.
+- Create Multi branch pipeline to build and push if branch = release, and deploy if branch= dev|test|prod.
+
+## Outputs:
 ### Configure Jenkins slave.
 ![q1_jenkins1](https://github.com/moe-Ali/ITI_CI-CD/blob/main/Day2-lab/Screenshots/q1_jenkins1.png)
 ![q1_jenkins2](https://github.com/moe-Ali/ITI_CI-CD/blob/main/Day2-lab/Screenshots/q1_jenkins2.png)
